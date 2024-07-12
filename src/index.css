@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: vagron;
+  src: url(./assets/fonts/VAGRON.TTF);
+}
+
+*{
+  font-family: vagron;
+}

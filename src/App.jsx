@@ -1,8 +1,13 @@
 import './App.css'
+import Header from './components/header'
 
 function App() {
   return (
-    <div className="text-red-500 text-7xl">Hello World</div>
+    <div className='min-h-screen w-full bg-[#B5DE97]'>
+      <div className='w-full h-full mx-auto max-w-6xl'>
+        <Header />
+      </div>
+    </div>
   )
 }
 
