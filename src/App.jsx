@@ -8,7 +8,7 @@ import { FaArrowCircleUp } from "react-icons/fa";
 
 function App() {
   return (
-    <div className='min-h-screen w-full bg-[#B5DE97] relative'>
+    <div className='min-h-screen w-full bg-[#6a9851] relative'>
       <div className='w-full h-full mx-auto max-w-6xl'>
         <Header />
         <Carousel />

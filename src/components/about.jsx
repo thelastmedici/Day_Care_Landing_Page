@@ -3,7 +3,7 @@ const About = () => {
     <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-x-6 px-2 gap-y-4 items-center md:items-start justify-items-center justify-center">
       <div className="w-full col-span-2 rounded-md bg-white p-6">
         <h1 className="text-[#522D8C] text-xl sm:text-3xl font-extralight">
-          Welcome to Purple Doves Preschool
+          Welcome to Wonderbee Daycare
         </h1>
         <div className="space-y-5 about text-sm sm:text-base mt-4">
           <p>

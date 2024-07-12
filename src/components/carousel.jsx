@@ -10,9 +10,9 @@ const Carousel = () => {
   return (
     <div className='w-full h-fit xs:h-fit relative my-5'> 
       <Swiper
-        // autoplay={{
-        //   delay: 5000
-        // }}
+        autoplay={{
+          delay: 5000
+        }}
         spaceBetween={30}
         loop={true}
         navigation={{
