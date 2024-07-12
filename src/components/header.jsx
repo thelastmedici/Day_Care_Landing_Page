@@ -5,10 +5,10 @@ const Header = () => {
         <img src="https://res.cloudinary.com/dmkjaieb2/image/upload/v1720776057/y4xq47laueivlgtjdpvj.png" alt="" className='w-72 h-72'/>
       </div>
       <div className='lg:hidden'>
-        <img src="https://res.cloudinary.com/dmkjaieb2/image/upload/v1720777814/ephx5k3ygdr5r1rzxrgc.png" alt="" className='w-72 h-36'/>
+        <img src="https://res.cloudinary.com/dmkjaieb2/image/upload/v1720777814/ephx5k3ygdr5r1rzxrgc.png" alt="" className='w-48 h-20 md:w-72 md:h-36'/>
       </div>
       <div className='flex flex-col w-full space-y-5 max-w-3xl'>
-        <div className='flex items-center justify-center lg:justify-end text-3xl tracking-wide lg:border-b pb-6 border-b-white w-full'>
+        <div className='flex items-center justify-center lg:justify-end text-xl md:text-3xl tracking-wide lg:border-b pb-6 border-b-white w-full'>
           <p className='text-[#FFFFFF] border-r border-r-white pr-4'>Contact Us</p>
           <p className='text-[#FFE03F] pl-4'>Email Us</p>
           <img src='https://purpledovespreschool.com/images/headerIcon7.png' alt='maps' className='ml-4'/>

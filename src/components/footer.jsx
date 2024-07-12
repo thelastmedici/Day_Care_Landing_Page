@@ -12,7 +12,7 @@ const Footer = () => {
           <p className="mx-2 hover:text-[#EF8742] cursor-pointer">Gallery</p> {"/"}
           <p className="mx-2 hover:text-[#EF8742] cursor-pointer">Contact</p>
         </div>
-        <div className="">
+        <div className="flex">
           <img src="https://res.cloudinary.com/dmkjaieb2/image/upload/v1720777814/ephx5k3ygdr5r1rzxrgc.png" alt="" className='w-48 h-24'/>
         </div>
       </div>

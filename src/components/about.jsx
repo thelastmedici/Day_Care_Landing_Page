@@ -2,10 +2,10 @@ const About = () => {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-x-6 px-2 gap-y-4 items-center md:items-start justify-items-center justify-center">
       <div className="w-full col-span-2 rounded-md bg-white p-6">
-        <h1 className="text-[#522D8C] text-3xl font-extralight">
+        <h1 className="text-[#522D8C] text-xl sm:text-3xl font-extralight">
           Welcome to Purple Doves Preschool
         </h1>
-        <div className="space-y-5 about text-base mt-4">
+        <div className="space-y-5 about text-sm sm:text-base mt-4">
           <p>
           Purple Doves Preschool is a high-quality early learning center located in St. Gabriel, Louisiana. We promote excellence in early childhood education where each child is accepted and celebrated. Our children are immersed in creative, innovative and fun activities. 
           </p>
@@ -13,7 +13,7 @@ const About = () => {
           Our nurturing environment has been designed to give children the opportunity to explore, play and learn according to their individual needs. We work together with parents to provide the love and support needed for each child to reach their milestones. We are dedicated to creating and maintaining a positive learning environment for all children.
           </p>
         </div>
-        <h1 className="mt-3 text-[#522D8C] text-2xl">**Coming Soon - Open House and Enrollment**</h1>
+        <h1 className="mt-3 text-[#522D8C] text-xl sm:text-2xl">**Coming Soon - Open House and Enrollment**</h1>
 
         <div className="mt-5">
           <h1 className="text-xl text-[#EF8742]">Highlights / Quick Facts</h1>
@@ -36,7 +36,7 @@ const About = () => {
           LEARN MORE ABOUT OUR PROGRAM
         </div>
       </div>
-      <div className="mx-auto w-full">
+      <div className="mx-auto w-full flex items-center justify-center">
         <img src="https://purpledovespreschool.com/images/v08.png" alt="" className="!m-auto"/>
       </div>
     </div>
