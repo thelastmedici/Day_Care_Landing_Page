@@ -7,7 +7,7 @@ const Header = () => {
       <div className='lg:hidden'>
         <img src="https://res.cloudinary.com/dmkjaieb2/image/upload/v1720777814/ephx5k3ygdr5r1rzxrgc.png" alt="" className='w-48 h-20 md:w-72 md:h-36'/>
       </div>
-      <div className='flex flex-col w-full space-y-5 max-w-3xl bg-[#f8f8b1] p-2'>
+      <div className='flex flex-col w-full space-y-5 max-w-3xl p-2'>
         <div className='flex items-center justify-center lg:justify-end text-xl md:text-3xl tracking-wide lg:border-b pb-6 w-full border-b-white'>
           <p className='text-[#FFFFFF] border-r border-r-white pr-4'>Contact Us</p>
           <p className='text-[#FFE03F] pl-4'>Email Us</p>
