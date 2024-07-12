@@ -8,9 +8,19 @@
   src: url(./assets/fonts/VAGRON.TTF);
 }
 
-*{
+@font-face {
+  font-family: opensans;
+  src: url(./assets/fonts/OpenSans-Regular.ttf);
+}
+
+body{
   font-family: vagron;
 }
+
+.about {
+  font-family: opensans !important;
+}
+
 
 .swiper-pagination-bullet-active {
   background-color: #FFAB3B !important;
