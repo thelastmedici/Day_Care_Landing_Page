@@ -32,7 +32,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mt-5 px-10 bg-[#1ABE67] -ml-8 float-left bg-[url(https://purpledovespreschool.com/images/learnMorBg.jpg)] bg-right-top bg-no-repeat text-white text-sm">
+        <div className="mt-5 px-10 py-1 bg-[#1ABE67] -ml-8 float-left bg-[url(https://purpledovespreschool.com/images/learnMorBg.jpg)] bg-right-top bg-no-repeat text-white text-sm">
           LEARN MORE ABOUT OUR PROGRAM
         </div>
       </div>
