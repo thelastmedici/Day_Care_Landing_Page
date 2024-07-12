@@ -16,9 +16,9 @@ function App() {
         <Packages />
       </div>
       <Footer />
-      <div className='fixed bottom-4 right-4 p-1 rounded-full cursor-pointer'>
+      <a href='#home' className='fixed bottom-4 right-4 p-1 rounded-full'>
         <FaArrowCircleUp size={26}/>
-      </div>
+      </a>
     </div>
   )
 }

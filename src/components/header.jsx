@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className='w-full flex flex-col items-center justify-between lg:flex-row space-y-4 lg:space-y-0 px-2'>
+    <div className='w-full flex flex-col items-center justify-between lg:flex-row space-y-4 lg:space-y-0 px-2' id="home">
       <div className='lg:block hidden'>
         <img src="https://res.cloudinary.com/dmkjaieb2/image/upload/v1720776057/y4xq47laueivlgtjdpvj.png" alt="" className='w-72 h-72'/>
       </div>
@@ -10,7 +10,7 @@ const Header = () => {
       <div className='flex flex-col w-full space-y-5 max-w-3xl'>
         <div className='flex items-center justify-center lg:justify-end text-xl md:text-3xl tracking-wide lg:border-b pb-6 border-b-white w-full'>
           <p className='text-[#FFFFFF] border-r border-r-white pr-4'>Contact Us</p>
-          <p className='text-[#FFE03F] pl-4'>Email Us</p>commut
+          <p className='text-[#FFE03F] pl-4'>Email Us</p>
           <img src='https://purpledovespreschool.com/images/headerIcon7.png' alt='maps' className='ml-4 hidden xs:flex'/>
         </div>
         <div className="xs:hidden flex items-center justify-center">
