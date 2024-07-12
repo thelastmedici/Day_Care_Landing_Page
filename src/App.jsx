@@ -1,4 +1,5 @@
 import './App.css'
+import Carousel from './components/carousel'
 import Header from './components/header'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className='min-h-screen w-full bg-[#B5DE97]'>
       <div className='w-full h-full mx-auto max-w-6xl'>
         <Header />
+        <Carousel />
       </div>
     </div>
   )
