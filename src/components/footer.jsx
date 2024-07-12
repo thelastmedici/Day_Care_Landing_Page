@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div className='bg-[#522D8C] py-10 mt-12 about'>
-      <div className="max-w-6xl mx-auto w-full flex justify-between items-center">
-        <div className="flex items-center text-white text-sm text-light">
+      <div className="max-w-6xl mx-auto w-full flex justify-end tab:justify-between items-center">
+        <div className="hidden tab:flex items-center text-white text-sm text-light">
           <p className="mx-2 hover:text-[#EF8742] cursor-pointer">Home</p> {"/"}
           <p className="mx-2 hover:text-[#EF8742] cursor-pointer">About Us</p> {"/"}
           <p className="mx-2 hover:text-[#EF8742] cursor-pointer">Our Program</p> {"/"}
@@ -17,8 +17,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto text-white text-sm">
-        <p>
+      <div className="max-w-6xl mx-auto text-white text-sm px-3 mt-4 tab:mt-0">
+        <p className="text-center tab:text-left text-lg">
         &#169; Copyright 2024 Wonderbee DayCare. 
         </p>
       </div>
