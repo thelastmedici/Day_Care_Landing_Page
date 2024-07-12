@@ -7,7 +7,7 @@ const About = () => {
         </h1>
         <div className="space-y-5 about text-sm sm:text-base mt-4">
           <p>
-          Purple Doves Preschool is a high-quality early learning center located in St. Gabriel, Louisiana. We promote excellence in early childhood education where each child is accepted and celebrated. Our children are immersed in creative, innovative and fun activities. 
+          At WonderBee Daycare, we understand the unique values and aspirations of Black African families. Located in the heart of major cities across Africa, we are dedicated to providing a safe, nurturing, and stimulating environment where your child can thrive. Our goal is to support the development of your child’s social, emotional, physical, and cognitive skills. We believe that children learn best through play and exploration, and we provide a variety of activities to encourage learning and growth.
           </p>
           <p>
           Our nurturing environment has been designed to give children the opportunity to explore, play and learn according to their individual needs. We work together with parents to provide the love and support needed for each child to reach their milestones. We are dedicated to creating and maintaining a positive learning environment for all children.
