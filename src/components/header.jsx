@@ -10,10 +10,12 @@ const Header = () => {
       <div className='flex flex-col w-full space-y-5 max-w-3xl'>
         <div className='flex items-center justify-center lg:justify-end text-xl md:text-3xl tracking-wide lg:border-b pb-6 border-b-white w-full'>
           <p className='text-[#FFFFFF] border-r border-r-white pr-4'>Contact Us</p>
-          <p className='text-[#FFE03F] pl-4'>Email Us</p>
+          <p className='text-[#FFE03F] pl-4'>Email Us</p>commut
+          <img src='https://purpledovespreschool.com/images/headerIcon7.png' alt='maps' className='ml-4 hidden xs:flex'/>
+        </div>
+        <div className="xs:hidden flex items-center justify-center">
           <img src='https://purpledovespreschool.com/images/headerIcon7.png' alt='maps' className='ml-4'/>
         </div>
-
         <div className='lg:flex items-center justify-center space-x-3 uppercase text-lg border-b pb-6 border-b-white hidden'>
           <button className='uppercase text-white bg-[#9CBF3E] px-4 py-2 rounded-md hover:text-black hover:bg-white transition-colors duration-300'>home</button>
           <button className='uppercase text-white bg-[#F6B63A] px-4 py-2 rounded-md hover:text-black hover:bg-white transition-colors duration-300'>about</button>

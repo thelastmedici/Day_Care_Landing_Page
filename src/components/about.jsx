@@ -26,7 +26,7 @@ const About = () => {
           </ul>
         </div>
 
-        <div className="mt-4">
+        <div className="mt-4 text-sm md:text-base">
           <p className="about">
           Please sign up to receive important information about our upcoming <span className="italic font-semibold">Open House</span> using the Inquiry Form in the <a href="#" className="text-blue-400">contact us</a> section. We look forward to meeting you and your children.
           </p>

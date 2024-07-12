@@ -24,22 +24,22 @@ const Carousel = () => {
           clickable: true,
         }}
         modules={[EffectFade, Navigation, Pagination, Autoplay]}
-        className="relative h-full w-full"
+        className="relative h-[300px] xs:h-fit w-full"
       >
         <SwiperSlide className=''>
-          <img src="https://purpledovespreschool.com/images/slider0.png" className='object-cover object-center w-full h-full'/>
+          <img src="https://purpledovespreschool.com/images/slider0.png" className='h-full w-full object-cover object-center'/>
         </SwiperSlide>
         <SwiperSlide className=''>
-          <img src="https://purpledovespreschool.com/images/slider1.png" className='object-cover object-center w-full h-full'/>
+          <img src="https://purpledovespreschool.com/images/slider1.png" className='h-full w-full object-cover object-center'/>
         </SwiperSlide>
         <SwiperSlide className=''>
-          <img src="https://purpledovespreschool.com/images/slider5.png" className='object-cover object-center w-full h-full'/>
+          <img src="https://purpledovespreschool.com/images/slider5.png" className='h-full w-full object-cover object-center'/>
         </SwiperSlide>
         <SwiperSlide className=''>
-          <img src="https://purpledovespreschool.com/images/slider8.png" className='object-cover object-center w-full h-full'/>
+          <img src="https://purpledovespreschool.com/images/slider8.png" className='h-full w-full object-cover object-center'/>
         </SwiperSlide>
         <SwiperSlide className='relative'>
-          <img src="https://purpledovespreschool.com/images/slider9.png" className='object-cover object-center w-full h-full'/>
+          <img src="https://purpledovespreschool.com/images/slider9.png" className='h-full w-full object-cover object-center'/>
         </SwiperSlide>
           <div className='w-full bottom-2 tab:h-80 tab:top-1/4 tab:left-20 absolute z-[100] max-w-full tab:max-w-md flex flex-col items-center justify-center space-y-2 tab:space-y-4'>
             <h1 className='text-[#FFF9BE] text-center tracking-wider [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] text-xl tab:text-4xl leading-snug'>
