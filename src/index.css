@@ -11,3 +11,13 @@
 *{
   font-family: vagron;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #FFAB3B !important;
+}
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+}
+

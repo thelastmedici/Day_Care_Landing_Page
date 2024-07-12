@@ -41,15 +41,15 @@ const Carousel = () => {
         <SwiperSlide className='relative'>
           <img src="https://purpledovespreschool.com/images/slider9.png" />
         </SwiperSlide>
-          <div className='w-full h-80 top-1/4 left-20 absolute z-[100] max-w-md flex flex-col items-center justify-center space-y-4'>
-            <h1 className='text-[#FFF9BE] text-center tracking-wider [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] text-4xl leading-snug  '>
+          <div className='w-full bottom-2 tab:h-80 tab:top-1/4 tab:left-20 absolute z-[100] max-w-full tab:max-w-md flex flex-col items-center justify-center space-y-2 tab:space-y-4'>
+            <h1 className='text-[#FFF9BE] text-center tracking-wider [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] text-xl tab:text-4xl leading-snug'>
               High-Quality Child Care & Early Education
             </h1>  
-            <p className='text-4xl font-semibold text-white tracking-wider drop-shadow-2xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
+            <p className='text-2xl tab:text-4xl font-semibold text-white tracking-wider drop-shadow-2xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
               LEARN. PLAY. GROW.
             </p>
 
-            <a href='' className='bg-no-repeat bg-contain bg-center bg-[url(https://purpledovespreschool.com/images/bannerBtnBg.png)] w-full h-20 flex items-center justify-center text-white uppercase text-3xl'>
+            <a href='' className='bg-no-repeat bg-contain bg-center bg-[url(https://purpledovespreschool.com/images/bannerBtnBg.png)] w-full h-12 lg:h-20 flex items-center justify-center text-white uppercase text-xl tab:text-3xl'>
               inquire now
             </a>
           </div>
