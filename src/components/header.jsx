@@ -9,8 +9,8 @@ const Header = () => {
       </div>
       <div className='flex flex-col w-full space-y-5 max-w-3xl p-2'>
         <div className='flex items-center justify-center lg:justify-end text-xl md:text-3xl tracking-wide lg:border-b pb-6 w-full border-b-white'>
-          <p className='text-[#FFFFFF] border-r border-r-white pr-4'>Contact Us</p>
-          <p className='text-[#FFE03F] pl-4'>Email Us</p>
+          <p className='text-[#FFFFFF] border-r border-r-white pr-4'>Login </p>
+          <p className='text-[#FFE03F] pl-4'>Sign Up</p>
           <img src='https://purpledovespreschool.com/images/headerIcon7.png' alt='maps' className='ml-4 hidden xs:flex'/>
         </div>
         <div className="xs:hidden flex items-center justify-center">
